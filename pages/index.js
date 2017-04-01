@@ -3,6 +3,6 @@ import withData from "../lib/data/withData";
 
 export default withData(() => (
   <Layout>
-    <div>Welcome to next.js!</div>
+    <div>Hello Roboto!</div>
   </Layout>
 ))

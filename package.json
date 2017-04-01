@@ -11,6 +11,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
+    "auth0-lock": "^10.14.0",
     "material-ui": "^0.17.1",
     "next": "^2.0.1",
     "ramda": "^0.23.0",

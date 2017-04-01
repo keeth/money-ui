@@ -1,12 +1,12 @@
 import Head from 'next/head';
+import {AppBar, FlatButton} from 'material-ui';
 
 export default ({title, children}) => (
   <div>
     <Head>
       <title>{title || 'Money'}</title>
-      <meta charSet='utf-8' />
-      <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
+    <AppBar title="Money" iconElementRight={<FlatButton label="Login" />} />
     {children}
   </div>
 )
