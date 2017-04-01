@@ -1,0 +1,25 @@
+{
+  "name": "money-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next --port 4001",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "material-ui": "^0.17.1",
+    "next": "^2.0.1",
+    "ramda": "^0.23.0",
+    "react": "^15.4.2",
+    "react-apollo": "^1.0.0",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux-form": "^6.6.1"
+  }
+}

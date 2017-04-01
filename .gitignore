@@ -1,0 +1,5 @@
+*.iml
+/.idea/
+npm-debug.log
+/.next/
+/node_modules/
